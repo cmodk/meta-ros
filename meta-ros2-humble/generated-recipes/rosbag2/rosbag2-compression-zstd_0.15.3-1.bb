@@ -4,6 +4,7 @@
 
 inherit ros_distro_humble
 inherit ros_superflore_generated
+inherit pkgconfig
 
 DESCRIPTION = "Zstandard compression library implementation of rosbag2_compression"
 AUTHOR = "Geoffrey Biggs <geoff@openrobotics.org>"
